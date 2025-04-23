@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      .container-column {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+      }
+      .container-column-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 20px;
+      }
+      .container-row {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+      }
+      .container-row-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 20px;
+      }
+      .item {
+        background: cyan;
+        padding: 10px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Column layout -->
+    <div class="container-column">
+      <div class="item">項目1 (Column)</div>
+      <div class="item">項目2 (Column)</div>
+      <div class="item">項目3 (Column)</div>
+    </div>
+
+    <!-- Column reverse layout -->
+    <div class="container-column-reverse">
+      <div class="item">項目1 (Column Reverse)</div>
+      <div class="item">項目2 (Column Reverse)</div>
+      <div class="item">項目3 (Column Reverse)</div>
+    </div>
+
+    <!-- Row layout -->
+    <div class="container-row">
+      <div class="item">項目1 (Row)</div>
+      <div class="item">項目2 (Row)</div>
+      <div class="item">項目3 (Row)</div>
+    </div>
+
+    <!-- Row reverse layout -->
+    <div class="container-row-reverse">
+      <div class="item">項目1 (Row Reverse)</div>
+      <div class="item">項目2 (Row Reverse)</div>
+      <div class="item">項目3 (Row Reverse)</div>
+    </div>
+  </body>
+</html>

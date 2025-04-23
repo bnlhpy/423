@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      .container-stretch{
+        display: flex;
+        justify-content: stretch;
+      }
+      .container-flex-start {
+        display: flex;
+        justify-content: flex-start;
+      }
+      .container-flex-end {
+        display: flex;
+        justify-content: flex-end;
+      }
+      .container-center {
+        display: flex;
+        justify-content:center;
+      }
+      .container-baseline {
+        display: flex;
+        justify-content:baseline;
+      }
+      .item {
+        background: cyan;
+        padding: 10px;
+        margin: 10px;
+      }	  
+    </style>
+  </head>
+  <body>	
+    <div class="container-stretch">
+        <div class="item">項目1<br>項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+      </div>	
+  
+      <div class="container-flex-start">
+        <div class="item">項目1<br>項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+      </div>	
+
+      <div class="container-flex-end">
+        <div class="item">項目1<br>項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+      </div>	
+
+      <div class="container-center">
+        <div class="item">項目1<br>項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+      </div>
+      
+      <div class="container-baseline">
+        <div class="item">項目1<br>項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+      </div>	
+  </body>
+</html>
